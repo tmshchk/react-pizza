@@ -19,6 +19,12 @@ body {
 .content {
   padding: 40px 0;
 
+  @media (max-width: 630px) {
+    &__title {
+      text-align: center;
+    }
+  }
+
   &__title {
     margin: 35px 0;
   }
@@ -26,13 +32,14 @@ body {
   &__items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   &__top {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 }
 

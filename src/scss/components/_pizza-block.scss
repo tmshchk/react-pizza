@@ -9,6 +9,12 @@
     margin-right: 35px;
   }
 
+  @media (max-width: 630px) {
+    &:not(:nth-of-type(4n)) {
+      margin-right: 0px;
+    }
+  }
+
   &__image {
     width: 260px;
   }
