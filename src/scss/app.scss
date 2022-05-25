@@ -41,6 +41,12 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
   }
+
+  @media (max-width: 630px) {
+    &__top {
+      justify-content: space-around;
+    }
+  }
 }
 
 .container {

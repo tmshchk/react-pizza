@@ -1,6 +1,11 @@
 @import '../variables';
 
 .categories {
+  @media (max-width: 630px) {
+    ul {
+      justify-content: center;
+    }
+  }
   ul {
     display: flex;
     flex-wrap: wrap;
