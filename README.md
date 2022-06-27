@@ -1,5 +1,5 @@
 # React Pizza
 
-_В процессе разработки._
+**Status**: In progress
 
-Демо-сайт пиццерии на Реакте.
+**Preview**: https://tourmaline-macaron-6d1d1d.netlify.app/
